@@ -14,3 +14,10 @@
     background-size: cover;
 
 }
+header h1{
+    text-align: center;
+    color: #ae0606;
+    /* margin: 20px; */
+    padding: 30px;
+    background: #e5e2e2;
+}
