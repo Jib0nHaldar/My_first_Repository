@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Selectors in CSS</title>
+    <!-- <style>
+        /*
+        /* tag selectors
+        p{}
+        /* id selectors */
+        .id{}
+        /* class selector */
+        #class{}
+        /* Universal selectors */
+        *{} */  
+    </style> -->
+
+
+    <style>
+        .green {
+            color: green;
+        }
+
+        #red {
+            color: red;
+        }
+
+        .bold {
+            font-weight: 800;
+        }
+
+        .red.bold {
+            color: red;
+            font-size: 1rem;
+        }
+
+        ul,
+        ol {
+            color: rgb(72, 44, 10);
+            text-align: justify;
+            background-color: palevioletred;
+        }
+
+        article> p{
+            background-color: grey;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <article>
+            <h2>This is heading 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae nulla tempora!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae nulla tempora!</p>
+            <div>
+                <p>This is a paragraph inside another paragraph</p>
+                <p>This is a paragraph inside another paragraph</p>
+                <p>This is a paragraph inside another paragraph</p>
+            </div>
+        </article>
+        <article>
+            <h2>This is heading 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae nulla tempora!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae nulla tempora!</p>
+        </article>
+        <article>
+            <h2>This is heading 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae nulla tempora!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae nulla tempora!</p>
+        </article>
+    </section>
+
+
+    <h1>This is Unorder</h1>
+    <ul>
+        <li class="red bold">This is unorderd list</li>
+        <li>This is unorderd list</li>
+        <li>This is unorderd list</li>
+        <li>This is unorderd list</li>
+        <li>This is unorderd list</li>
+    </ul>
+    <h1>This is ordered</h1>
+    <ol>
+        <li>This is ordered list</li>
+        <li class="green bold">This is ordered list</li>
+        <li>This is ordered list</li>
+        <li>This is ordered list</li>
+        <li>This is ordered list</li>
+    </ol>
+</body>
+
+</html>

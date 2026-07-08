@@ -1,0 +1,16 @@
+.blog{
+    background-color: bisque;
+    width: 500px;
+    margin: 50px;
+    box-shadow: 20px 15px 40px ;
+}
+
+#header{
+    background-image: url('/Image/images.jpg');
+    height: 200px;
+    background-color: paleturquoise;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}

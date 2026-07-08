@@ -1,0 +1,10 @@
+article{
+            background-color: aquamarine;
+            font-size: large;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 1rem solid blue;
+            text-align: justify;
+            /* CSS Box model */
+            margin: 10px 25px 40px;
+            padding: 20px 10px;
+        }
